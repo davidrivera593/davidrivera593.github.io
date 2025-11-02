@@ -43,4 +43,4 @@
         <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
     </xsd:complexType>
 
-</xsdd:schema>
+</xsd:schema>
