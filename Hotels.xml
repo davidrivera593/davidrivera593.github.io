@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+    <!-- Hotel 1: Westin with Rating -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>
+            <Number>480-968-8885</Number>
+            <Number>800-937-8461</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 2: Marriott with Rating -->
+    <Hotel Rating="4.5">
+        <Name>Marriott Downtown</Name>
+        <Phone>
+            <Number>602-333-0000</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>300</Number>
+            <Street>N 2nd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 3: Hilton without Rating -->
+    <Hotel>
+        <Name>Hilton Garden Inn</Name>
+        <Phone>
+            <Number>480-756-9000</Number>
+            <Number>480-756-9001</Number>
+            <Number>800-445-8667</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7747</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 4: Four Seasons with Rating -->
+    <Hotel Rating="4.8">
+        <Name>Four Seasons Resort Scottsdale</Name>
+        <Phone>
+            <Number>480-515-5700</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>10600</Number>
+            <Street>E Crescent Moon Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85262</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 5: Embassy Suites without Rating -->
+    <Hotel>
+        <Name>Embassy Suites Phoenix Airport</Name>
+        <Phone>
+            <Number>602-957-1910</Number>
+            <Number>800-362-2779</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2333</Number>
+            <Street>E Thomas Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85016</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 6: Holiday Inn with Rating -->
+    <Hotel Rating="3.8">
+        <Name>Holiday Inn Express Mesa</Name>
+        <Phone>
+            <Number>480-964-8888</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>1563</Number>
+            <Street>S Longmore</Street>
+            <City>Mesa</City>
+            <State>AZ</State>
+            <Zip>85202</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 7: Sheraton without Rating -->
+    <Hotel>
+        <Name>Sheraton Phoenix Downtown</Name>
+        <Phone>
+            <Number>602-262-2500</Number>
+            <Number>800-325-3535</Number>
+            <Number>602-262-2501</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>340</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 8: Hyatt with Rating -->
+    <Hotel Rating="4.1">
+        <Name>Hyatt Regency Scottsdale</Name>
+        <Phone>
+            <Number>480-444-1234</Number>
+        </Phone>
+        <Address NearestAirport="Scottsdale Airport">
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 9: Best Western without Rating -->
+    <Hotel>
+        <Name>Best Western Plus Tempe</Name>
+        <Phone>
+            <Number>480-784-2233</Number>
+            <Number>800-528-1234</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>670</Number>
+            <Street>N Scottsdale Rd</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 10: DoubleTree with Rating -->
+    <Hotel Rating="4.0">
+        <Name>DoubleTree by Hilton Phoenix</Name>
+        <Phone>
+            <Number>602-225-0500</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2100</Number>
+            <Street>S Priest Dr</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85282</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 11: Radisson without Rating -->
+    <Hotel>
+        <Name>Radisson Hotel Phoenix Airport</Name>
+        <Phone>
+            <Number>602-968-3451</Number>
+            <Number>800-333-3333</Number>
+        </Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>427</Number>
+            <Street>N 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+
+</Hotels>
