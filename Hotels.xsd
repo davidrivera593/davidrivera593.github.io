@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           elementFormDefault="qualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xlmns="https://davidrivera593.github.io"
+           targetNamespace="https://davidrivera593.github.io"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
 
     <!-- Root element: Hotels -->
     <xs:element name="Hotels">
@@ -40,4 +43,4 @@
         <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
     </xs:complexType>
 
-</xs:schema>
+</xsd:schema>
